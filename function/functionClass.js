@@ -96,3 +96,14 @@ const additi=(a,b)=>{
     console.log("I am IIFE");
 })();
 //==================================================================================================
+// pagination();
+// //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// //Inline function(Interview ques)
+// // if we assign variable to nameless function/ anonymous function, it is called inline function
+//  const footer = function (){
+// console.log("anonymous");
+//  };
+//  footer();// page 1
+//  footer();//page 2

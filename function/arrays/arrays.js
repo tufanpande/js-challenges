@@ -67,3 +67,17 @@ const ex=[
 ];
 const newAr= ex.sort((a,b)=> a.age-b.age);
 console.log(newAr);
+
+//HW 
+//by mapping
+
+const exx = [
+    { name: "ram", age: 20 },
+    { name: "hari", age: 10 },
+    { name: "shyam", age: 22 },
+];
+
+// Use map to create a new array and sort it by age
+const newArr = exx.map(obj => obj).sort((a, b) => a.age - b.age);
+
+console.log(newArr);

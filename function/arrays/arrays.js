@@ -77,7 +77,7 @@ const exx = [
     { name: "shyam", age: 22 },
 ];
 
-// Use map to create a new array and sort it by age
+
 const newArr = exx.map(obj => obj).sort((a, b) => a.age - b.age);
 
 console.log(newArr);

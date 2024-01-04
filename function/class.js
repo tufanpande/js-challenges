@@ -5,13 +5,7 @@
 function sortAlphabetically(string){
 
 
-    let charArray= string.split("");
-
-    charArray.sort();
-
-    let sortData=charArray.join('');
-
-    return sortData;
+    return sortData= string.split("").sort().join();
 };
 
 
@@ -31,7 +25,7 @@ console.log(result);
 
 
 function isPalindrome(value) {
-    // Convert the value to a string
+    // Convert value to string
     const strValue = String(value);
 
     // Reverse the string

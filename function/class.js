@@ -29,6 +29,24 @@ console.log(result);
 //palindrome(-10) false
 //palindrome(10) false 
 
+
+function isPalindrome(value) {
+    // Convert the value to a string
+    const strValue = String(value);
+
+    // Reverse the string
+    return strValue ===strValue.split('').reverse().join('');
+
+}
+
+// Examples
+console.log(isPalindrome('mom'));
+console.log(isPalindrome(121));
+console.log(isPalindrome(-10));
+console.log(isPalindrome(10));
+console.log(isPalindrome('test'));
+
+
 //spread operator
 
 const arr=[

@@ -5,7 +5,7 @@
 function sortAlphabetically(string){
 
 
-    return sortData= string.split("").sort().join();
+    return sortData= string.split("").sort().join("");
 };
 
 
@@ -26,7 +26,7 @@ console.log(result);
 function isPalindrome(value) {
     // Convert value to string
     const strValue = String(value);
-    return strValue ===strValue.split('').reverse().join('');
+    return strValue ===strValue.split("").reverse().join("");
 
 }
 

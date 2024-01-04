@@ -26,18 +26,24 @@ console.log(result);
 function isPalindrome(value) {
     // Convert value to string
     const strValue = String(value);
-
-    // Reverse the string
     return strValue ===strValue.split('').reverse().join('');
 
 }
 
-// Examples
+
 console.log(isPalindrome('mom'));
 console.log(isPalindrome(121));
 console.log(isPalindrome(-10));
 console.log(isPalindrome(10));
 console.log(isPalindrome('test'));
+
+//write a JS function that accepts a string as a parameter
+//and converts the first letter of each word into uppercase.
+//Example string :'the quick brown fox'
+//Expected output: "The Quick Brown Fox"
+
+
+
 
 
 //spread operator

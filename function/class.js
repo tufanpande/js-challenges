@@ -10,7 +10,6 @@ function sortAlphabetically(string){
 
 
 let input= "webmaster";
-
 let result= sortAlphabetically(input);
 console.log(result);
 

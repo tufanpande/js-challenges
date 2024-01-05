@@ -49,6 +49,6 @@ const paginate=(arr,page)=>{
     return arr.slice((page-1)*itemsPerPage, page * itemsPerPage);
 };
 
-const data= ['1','2','3','4','5','6','7','8'];
+const data= ['1','2','3','4','5','6','7','8','9'];
 console.log(paginate(data, 1));
 console.log(paginate(data, 2));

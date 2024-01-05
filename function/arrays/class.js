@@ -44,3 +44,11 @@ console.log (sumCharacters([1,2,3]));
 
 //write a pagination function that returns 5 items on page change
 //["1",'2','3','4','5','6','7','8']
+const paginate=(arr,page)=>{
+    const itemsPerPage =5;
+    return arr.slice((page-1)*itemsPerPage, page * itemsPerPage);
+};
+
+const data= ['1','2','3','4','5','6','7','8'];
+console.log(paginate(data, 1));
+console.log(paginate(data, 2));

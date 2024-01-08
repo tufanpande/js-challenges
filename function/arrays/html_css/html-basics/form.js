@@ -11,7 +11,7 @@ function getFormData(){
     const male = document.getElementById("male").value;
     const female = document.getElementById("female").value;
     const message = document.getElementById("message").value;
-    const subscribe = document.getElementById("subscribe").value;
+
     console.log({fName, email, password,male,female, message, subscribe});
 }
 

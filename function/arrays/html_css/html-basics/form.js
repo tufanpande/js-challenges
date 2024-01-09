@@ -12,7 +12,7 @@ function getFormData(){
     const female = document.getElementById("female").value;
     const message = document.getElementById("message").value;
 
-    console.log({fName, email, password,male,female, message, subscribe});
+    console.log({fName, email, password,male,female, message, });
 }
 
-document.getElementById("datId").innerHTML=today();
+// document.getElementById("datId").innerHTML=today();

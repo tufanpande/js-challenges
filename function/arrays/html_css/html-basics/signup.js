@@ -10,7 +10,6 @@ function getFormData(){
 }
 
 /*
-
 MERN Stack
 1. Just the right amount of HTML, CSS,JS
 ->html run

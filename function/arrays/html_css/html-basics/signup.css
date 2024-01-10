@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.row {
+    padding: 20px;
+    border-radius: 6px;
+    width: 400 px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
